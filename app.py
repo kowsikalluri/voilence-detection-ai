@@ -199,8 +199,8 @@ webrtc_streamer(
 
 st.divider()
 st.subheader("📧 Optional Email Alerts")
-st.write("For deployment, email credentials are read from Streamlit Secrets / environment variables rather than being stored in GitHub.")
-st.caption("Set ALERT_SENDER_EMAIL, ALERT_SENDER_PASSWORD and ALERT_RECEIVER_EMAIL only if you want email notifications.")
+
+
 
 st.subheader("📸 Your Session Snapshots")
 snapshots = sorted(
