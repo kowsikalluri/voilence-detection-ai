@@ -1,6 +1,6 @@
 streamlit
 streamlit-webrtc
-tensorflow
+tensorflow==2.20.0
 opencv-python-headless
 numpy
 av
